@@ -6,7 +6,8 @@ import { HomeComponentComponent } from './home-component/home-component.componen
 import { EmployeeComponent } from './employee/employee.component';
 import { DepartmentComponent } from './department/department.component';
 
-import {routes} from './ApplicationRoutes'
+import {routes} from './ApplicationRoutes';
+import { EmployeeDetailsComponent } from './employee-details/employee-details.component'
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import {routes} from './ApplicationRoutes'
     AppComponent,
     HomeComponentComponent,
     EmployeeComponent,
-    DepartmentComponent
+    DepartmentComponent,
+    EmployeeDetailsComponent
   ],
   imports: [
     BrowserModule
